@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<math.h>
+
+main()
+{
+
+int liczba,licznik,pierwsza;
+cout<<"Podaj liczbe : ";
+cin>>liczba;
+pierwsza=1;
+liczba=abs(liczba); //modul liczby
+
+if (liczba!=2) {
+
+	 for (licznik=2;licznik<liczba-1;licznik++)
+	 {  if (liczba%licznik==0) {pierwsza=0;}  }
+
+					} else pierwsza=0;
+
+
+if (pierwsza==1) cout<<"Liczba jest pierwsza.";else
+					  cout<<"Liczba nie jest pierwsza.";
+
+}
+
