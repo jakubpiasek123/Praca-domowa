@@ -11,3 +11,6 @@ if (a%2==0) {cout<<"Liczba jest Parzysta";}else
 
 }
 
+
+Zmianananananannannnanananna
+
